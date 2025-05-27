@@ -6,3 +6,5 @@ predictions accurate.
 
 I built another example with sample data which is supposed to simulate how a company can predict future sales based on past ad spend and future ad spend values. 
 In the model we use an exogenous value ad_spend which gives an insight into how adding or lowering ad_spend will affect future sales. This also uses the ARIMA order of AR, I and MA.
+
+It should also be noted that a very good benefit of using this model is that it shows us the effect of seasonality and trend in data while also letting us remove each and viewing results.
