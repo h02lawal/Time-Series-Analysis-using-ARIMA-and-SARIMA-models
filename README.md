@@ -4,6 +4,6 @@ I built a model that uses ARIMA(X), SARIMA(X), and Auto-Arima to make prediction
 - The MA(Moving Average) predicts future values based on past errors, it helps correct over/under shooting in predictions
 
 I built another model with sample data which is supposed to simulate how a company can predict future sales based on past ad spend and future ad spend values. 
-In the model we use an exogenous value ad_spend which gives an insight into how adding or lowering ad_spend will affect future sales. This also uses the ARIMA order of AR, I and MA.
+In the model we use an exogenous value ad_spend which gives an insight into how adding or lowering advertisement funds will affect future sales. This also uses the ARIMA order of AR, I and MA.
 
 It should also be noted that a very good benefit of using these models is that they show us the effect of seasonality and trend in data, while also letting us manipulate each and comparing the effects.
